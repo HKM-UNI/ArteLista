@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_action_bar_title">Inicio de Sesión</string>
+    <string name="signup_action_bar_title">Registrarse</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="signup">Crear cuenta</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="no_account">¿No tienes una cuenta?</string>
+</resources>
