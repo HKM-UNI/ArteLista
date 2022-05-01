@@ -2,30 +2,4 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_navegation"
-    app:startDestination="@id/login">
-
-    <fragment
-        android:id="@+id/login"
-        android:name="com.hkm.openart.Login"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login" >
-        <action
-            android:id="@+id/action_login_to_sign_up"
-            app:destination="@id/sign_up" />
-    </fragment>
-    <fragment
-        android:id="@+id/sign_up"
-        android:name="com.hkm.openart.SignUp"
-        android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" >
-        <action
-            android:id="@+id/action_sign_up_to_home2"
-            app:destination="@id/home2" />
-    </fragment>
-    <fragment
-        android:id="@+id/home2"
-        android:name="com.hkm.openart.Home"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
-</navigation>
+    android:id="@+id/main_navegation" />
