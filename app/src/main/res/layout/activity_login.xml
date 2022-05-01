@@ -25,49 +25,14 @@
         android:id="@+id/btn_login"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="68dp"
         android:background="@drawable/gradient_button_primary"
         android:text="@string/login"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_login_password"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword"
         tools:ignore="TextContrastCheck" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txt_login_username"
-        android:layout_width="334dp"
-        android:layout_marginTop="68dp"
-        android:layout_height="60dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_actionbar_login">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-
-            android:hint="@string/hint_username"
-            tools:ignore="TextContrastCheck" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txt_login_password"
-        android:layout_width="334dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_login_username">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="@string/hint_password"
-            android:inputType="textPassword"
-            tools:ignore="TextContrastCheck" />
-    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btn_forgot_pass"
@@ -98,6 +63,32 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_forgot_pass"
+        tools:ignore="TextContrastCheck" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtEmail"
+        android:layout_width="330dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="@string/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_actionbar_login"
+        tools:ignore="TextContrastCheck" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtPassword"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail"
         tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
