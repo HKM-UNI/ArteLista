@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="login_action_bar_title">Signing In</string>
+    <string name="login_action_bar_title">Sign In</string>
     <string name="signup_action_bar_title">Create Account</string>
     <string name="login">Log in</string>
     <string name="signup">Sign up</string>

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="email">Email</string>
-    <string name="hint_person_name">Nombre</string>
     <string name="hint_username">Usuario</string>
     <string name="hint_password">Contraseña</string>
     <string name="hint_confirm_password">Confirmar contraseña</string>
     <string name="hint_show">Mostrar</string>
+
+    <string name="navbar_home">Inicio</string>
+    <string name="navbar_arts">Artes</string>
+    <string name="navbar_artists">Artistas</string>
+    <string name="navbar_events">Eventos</string>
+
 </resources>
